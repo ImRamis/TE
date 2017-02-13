@@ -1,0 +1,40 @@
+﻿<Window x:Class="Live_Your_Life.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        WindowStartupLocation="CenterScreen"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Live_Your_Life"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="645.404" Width="1020.264">
+    <StackPanel>
+        <Canvas  Visibility="Visible"  Name="meraBilla">
+            <Menu>
+                <MenuItem Header="File" >
+                    <MenuItem Header="Create App" Click="CreateNew"/>
+                    <MenuItem Header="Open App" Click="OpenProject"/>
+                    <MenuItem Header="Save" Click="Save"/>
+                    <MenuItem Header="Exit" Click="Exit"/>
+                </MenuItem>
+                <MenuItem Header="Test">
+                    <MenuItem Header="Simulate" Click="Simulate"/>
+                </MenuItem>
+            </Menu>
+            <Grid Margin="334,15,0,0" Width="386" HorizontalAlignment="Left" Height="579" VerticalAlignment="Top" Background="#FF646464">
+                <Grid.Effect>
+                    <DropShadowEffect Color="#FF111111" Direction="0" RenderingBias="Quality" ShadowDepth="-1"/>
+                </Grid.Effect>
+                <WebBrowser  Name="Titanium" HorizontalAlignment="Right" Width="386" Height="579" VerticalAlignment="Top"  />
+            </Grid>
+        </Canvas>
+        <Canvas HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Name="teraBilla" Visibility="Hidden">
+            <TextBox Height="37" TextWrapping="Wrap" Text="TextBox" Canvas.Top="561" Canvas.Left="500" Width="276"/>
+            <Button Content="Create Project" RenderTransformOrigin="0.516,0.405" Canvas.Left="791" Canvas.Top="561" Height="37" Width="158"/>
+            <ComboBox SelectedIndex="1" Name="templateInfo" Canvas.Left="361" Canvas.Top="492" Width="276">
+                <ComboBoxItem Content="Blank Template" HorizontalAlignment="Left" Width="274"/>
+                <ComboBoxItem Content="Side Menu Template" HorizontalAlignment="Left" Width="274"/>
+                <ComboBoxItem Content="Tabs Template" HorizontalAlignment="Left" Width="274"/>
+            </ComboBox>
+        </Canvas>
+    </StackPanel>
+</Window>

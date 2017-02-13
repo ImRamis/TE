@@ -1,0 +1,14 @@
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Debug\Live Your Life.exe.config
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Debug\Live Your Life.exe
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Debug\Live Your Life.pdb
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\Live Your Life.csprojResolveAssemblyReference.cache
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\MainWindow.g.cs
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\App.g.cs
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\Live Your Life_MarkupCompile.cache
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\Live Your Life_MarkupCompile.lref
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\MainWindow.baml
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\Live Your Life.g.resources
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\Live_Your_Life.Properties.Resources.resources
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\Live Your Life.csproj.GenerateResource.Cache
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\Live Your Life.exe
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Debug\Live Your Life.pdb
