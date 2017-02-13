@@ -8,18 +8,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="645.404" Width="1020.264">
     <StackPanel>
-        <Canvas  Visibility="Visible"  Name="meraBilla">
-            <Menu>
-                <MenuItem Header="File" >
-                    <MenuItem Header="Create App" Click="CreateNew"/>
-                    <MenuItem Header="Open App" Click="OpenProject"/>
-                    <MenuItem Header="Save" Click="Save"/>
-                    <MenuItem Header="Exit" Click="Exit"/>
-                </MenuItem>
-                <MenuItem Header="Test">
-                    <MenuItem Header="Simulate" Click="Simulate"/>
-                </MenuItem>
-            </Menu>
+        <Menu>
+            <MenuItem Header="File" >
+                <MenuItem Header="Create App" Click="CreateNew"/>
+                <MenuItem Header="Open App" Click="OpenProject"/>
+                <MenuItem Header="Save" Click="Save"/>
+                <MenuItem Header="Exit" Click="Exit"/>
+            </MenuItem>
+            <MenuItem Header="Test">
+                <MenuItem Header="Simulate" Click="Simulate"/>
+            </MenuItem>
+        </Menu>
+        <Canvas  Visibility="Hidden"  Name="meraBilla">
             <Grid Margin="334,15,0,0" Width="386" HorizontalAlignment="Left" Height="579" VerticalAlignment="Top" Background="#FF646464">
                 <Grid.Effect>
                     <DropShadowEffect Color="#FF111111" Direction="0" RenderingBias="Quality" ShadowDepth="-1"/>
@@ -27,14 +27,18 @@
                 <WebBrowser  Name="Titanium" HorizontalAlignment="Right" Width="386" Height="579" VerticalAlignment="Top"  />
             </Grid>
         </Canvas>
-        <Canvas HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Name="teraBilla" Visibility="Hidden">
-            <TextBox Height="37" TextWrapping="Wrap" Text="TextBox" Canvas.Top="561" Canvas.Left="500" Width="276"/>
-            <Button Content="Create Project" RenderTransformOrigin="0.516,0.405" Canvas.Left="791" Canvas.Top="561" Height="37" Width="158"/>
-            <ComboBox SelectedIndex="1" Name="templateInfo" Canvas.Left="361" Canvas.Top="492" Width="276">
-                <ComboBoxItem Content="Blank Template" HorizontalAlignment="Left" Width="274"/>
-                <ComboBoxItem Content="Side Menu Template" HorizontalAlignment="Left" Width="274"/>
-                <ComboBoxItem Content="Tabs Template" HorizontalAlignment="Left" Width="274"/>
+        <Canvas HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Name="teraBilla" Visibility="Visible">
+            <TextBox Name="location" Height="37" TextWrapping="Wrap" Text="exampleProject" FontSize="24px" Canvas.Top="538" Canvas.Left="409" Width="276"/>
+            <Button Content="Create Project" RenderTransformOrigin="0.516,0.405" Canvas.Left="691" Canvas.Top="537" Height="37" Width="158"/>
+            <ComboBox FontSize="20px"  SelectionChanged="templateInfo_SelectionChanged" SelectedIndex="0" Name="templateInfo" Canvas.Left="16" Canvas.Top="538" Width="388" Height="37">
+                <ComboBoxItem Content="blank" HorizontalAlignment="Left" Width="274"/>
+                <ComboBoxItem Content="menu" HorizontalAlignment="Left" Width="274"/>
+                <ComboBoxItem Content="tabs" HorizontalAlignment="Left" Width="274"/>
             </ComboBox>
+            <Label Content="Template" Canvas.Left="16" Canvas.Top="507"/>
+            <Image Name="Template" Width="723" Height="460" Canvas.Left="140" Canvas.Top="48" Source="pack://siteoforigin:,,,/Resources/blank.png" Stretch="Fill"/>
+            <Button Content="Cancel" Canvas.Left="854" Canvas.Top="538" Height="37" Width="137" Click="CancelCreate"/>
+            <Label Content="Project Name" Canvas.Left="409" Canvas.Top="507"/>
         </Canvas>
     </StackPanel>
 </Window>

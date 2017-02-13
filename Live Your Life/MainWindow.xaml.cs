@@ -33,14 +33,22 @@ namespace Live_Your_Life
         public MainWindow()
         {
             InitializeComponent();
-            
-
         }
         void CreateNew(object sender, RoutedEventArgs e)
         {
             meraBilla.Visibility = Visibility.Hidden;
             teraBilla.Visibility = Visibility.Visible;
-            }
+        }
+        void CancelCreate(object sender, RoutedEventArgs e)
+        {
+            meraBilla.Visibility = Visibility.Visible;
+            teraBilla.Visibility = Visibility.Hidden;
+        }
+        void templateInfo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (Template != null)
+                Template.Source = new BitmapImage(new Uri("pack://siteoforigin:,,,/Resources/" + templateInfo.SelectedValue.ToString().Split(' ').Last() + ".png"));
+        }
         void OpenProject(object sender, RoutedEventArgs e)
         {
 
@@ -56,7 +64,6 @@ namespace Live_Your_Life
         void Simulate(object sender, RoutedEventArgs e)
         {
         }
-
     }
     public enum Templates
     {

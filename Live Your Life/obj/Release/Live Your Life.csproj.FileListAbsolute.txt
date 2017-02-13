@@ -1,0 +1,16 @@
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Live Your Life.exe.config
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Live Your Life.exe
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Live Your Life.pdb
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\MainWindow.g.cs
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\App.g.cs
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\Live Your Life_MarkupCompile.cache
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\Live Your Life_MarkupCompile.lref
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\MainWindow.baml
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\Live Your Life.g.resources
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\Live_Your_Life.Properties.Resources.resources
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\Live Your Life.csproj.GenerateResource.Cache
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\Live Your Life.exe
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\Live Your Life.pdb
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Resources\blank.png
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Resources\Menu.png
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Resources\Tabs.png
