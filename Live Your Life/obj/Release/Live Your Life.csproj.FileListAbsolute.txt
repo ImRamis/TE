@@ -14,3 +14,4 @@ c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Li
 c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Resources\blank.png
 c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Resources\Menu.png
 c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\bin\Release\Resources\Tabs.png
+c:\users\ramis\documents\visual studio 2017\Projects\Live Your Life\Live Your Life\obj\Release\Live Your Life.csprojResolveAssemblyReference.cache
